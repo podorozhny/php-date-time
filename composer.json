@@ -1,0 +1,40 @@
+{
+    "name":              "podorozhny/datetime",
+    "description":       "Custom DateTime classes (date, time, w/ & w/o microseconds)",
+    "type":              "library",
+    "keywords":          [
+        "php",
+        "datetime",
+        "date",
+        "time"
+    ],
+    "homepage":          "https://github.com/podorozhny/datetime",
+    "license":           "MIT",
+    "authors":           [
+        {
+            "name":  "Ivan Podorozhny",
+            "email": "ivan@podorozhny.ru"
+        }
+    ],
+    "support":           {
+        "issues": "https://github.com/podorozhny/datetime/issues",
+        "source": "https://github.com/podorozhny/datetime"
+    },
+    "minimum-stability": "stable",
+    "require":           {
+        "php": ">=5.4"
+    },
+    "require-dev":       {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload":          {
+        "psr-4": {
+            "Podorozhny\\DateTime\\": "src/"
+        }
+    },
+    "autoload-dev":      {
+        "psr-4": {
+            "Tests\\Podorozhny\\DateTime\\": "tests/"
+        }
+    }
+}
